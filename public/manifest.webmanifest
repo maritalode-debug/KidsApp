@@ -1,0 +1,18 @@
+{
+  "name": "BarneBank & Belønninger",
+  "short_name": "BarneBank",
+  "description": "Tjen skjermtid og lommepenger på lesing, skriving og oppgaver",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#3b82f6",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "/icons/piggy-bank.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

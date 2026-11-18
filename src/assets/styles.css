@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Prevent pull to refresh on mobile/tablet PWA */
+  html, body {
+    overscroll-behavior-y: contain;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Touch friendly custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Fun bounce animation for rewards */
+@keyframes coin-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-coin {
+  animation: coin-bounce 1.5s ease-in-out infinite;
+}
