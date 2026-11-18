@@ -46,7 +46,7 @@ export const DashboardView: React.FC = () => {
           </div>
           <div>
             <h4 className="text-lg md:text-xl font-black">
-              Husk: 10 minutter skriving gir 20 minutter skjermtid!
+              Husk: 10 minutter skriving gir 20 minutter skjermtid!!
             </h4>
             <p className="text-xs md:text-sm font-semibold text-amber-100">
               Eller du kan spare pengene i sparegrisen din til noe du ønsker deg.
